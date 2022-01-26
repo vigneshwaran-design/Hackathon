@@ -1,0 +1,63 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+.topBar{
+    background-color:#2E51a2;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.topBar>h1{
+    font-size: 60px;
+    font-family:cursive;
+    color: white;
+}
+
+input{
+    width: 800px;
+    height: 40px;
+    border-radius: 10px;
+    padding:4px;
+    font-size: 20px;
+}
+
+.user-list{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    background-color:rgb(158, 178, 223);
+    align-content: space-around;
+    
+}
+.card{
+    margin:4% 0 0 6%;
+    height:1100px;
+    overflow:scroll;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    background-color:whitesmoke;
+   
+   
+}
+
+.user-avatar{
+    margin-left: 10%;
+    width: 80%;
+    height:500px;
+}
+
+span{
+    color:#2E51a2;
+    font-weight:bold;
+}
+p {
+    font-weight: bold;
+}
+.synopsis {
+    
+        font-weight: bold;
+    }
